@@ -4,18 +4,10 @@ a {
   text-decoration: none;
 }
 
-.team {
-  padding: 50px;
-  width: 100%;
-  margin: 0 auto;
-  font-family: 'DM Sans';
-  color: white;
-}
-
 .team-heading {
   display:inline;
   position:relative;
-  right: 400px;
+  left: 600px;
   bottom: 20px;
   font-size: 85px;
   margin: 5px;
@@ -103,7 +95,7 @@ a {
   height: 150px;
   border-radius: 100%;
   /* border: solid #8872AB; */
-  border-bottom: solid 5px #A45555;
+  border-bottom: solid 5px #A45555; 
 }
 
 .team-img-fun {

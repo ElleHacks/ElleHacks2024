@@ -8,8 +8,11 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import JoinUS from './components/JoinUS';
 import FAQ from './components/FAQ';
+import MeetTheTeam from './components/MeetTheTeam'
+import MeetOurSponsors from './components/MeetOurSponsors'
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+;
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
         <NavBar />
         <Home id="home" />
         <AboutUs id="aboutus" />
+        <MeetTheTeam id="meettheteam" />
         <JoinUS id="joinus" />
         <FAQ id="faq" />
         <Footer />
@@ -25,4 +29,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
