@@ -35,6 +35,20 @@ import img1Sponsorship from '../assets/meettheteam/headshots/Batul_Ismail.jpg';
 import img2Sponsorship from '../assets/meettheteam/headshots/sayed_mohammed.jpg';
 import img3Sponsorship from '../assets/meettheteam/headshots/Wan_Ning_Ma.jpg';
 
+function Member({ name, role, img, link }) {
+  return(
+      <div class="team-member">
+          <div class="image">
+              <a href={link}  target="_blank" rel="noreferrer">
+                  <img class="team-img" src={img} alt="test" />
+              </a>
+          </div>
+          <h4 class="team-name">{name}</h4>
+          <p class="team-title">{role}</p>
+      </div>
+  );
+}
+
 function MeetTheTeam() {
 
   return (
@@ -43,279 +57,57 @@ function MeetTheTeam() {
         <div class="container-fluid-xl" id="about-us-section">
         </div><div class="team" />
 
-        <h2 class="team-heading">
+        <h2 class="text-white text-center text-8xl p-4">
           Meet Our Team 
         </h2>
 
-        <div class="grid co-chairs">
-          <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/visalithiru" target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img1Chair} alt="test" />
-                  <img class="team-img-fun" src={img1Chair} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Visali Thirukeswaran</h4>
-              <p class="team-title">ElleHacks Co-Chair</p>
-          </div>
-          <div class="team-member">
-            <div class="image">
-              <a href="https://www.linkedin.com/in/danielle-grajnar/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img2Chair} alt="test" />
-                  <img class="team-img-fun" src={img2Chair} alt="test"/>
-              </a></div>
-            <h4 class="team-name">Danielle Grajnar</h4>
-            <p class="team-title">ElleHacks Co-Chair</p>
-          </div>
-          <div class="team-member">
-            <div class="image">
-              <a href="google.com"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={test} alt="test" />
-                  <img class="team-img-fun" src={test} alt="test"/>
-              </a></div>
-            <h4 class="team-name">Blank</h4>
-            <p class="team-title">Co-Chair</p>
-          </div>
-
-          <div class="executives">
-            <div class="grid lms-exe" />
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/triya-augustine/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img11Logistic} alt="test" />
-                  <img class="team-img-fun" src={img11Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Triya Augustine</h4>
-              <p class="team-title">Logistics Director</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/aditi-patel-43452927a"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img1Logistic} alt="test" />
-                  <img class="team-img-fun" src={img1Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Aditi Patel</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/bohina-m/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img2Logistic} alt="test" />
-                  <img class="team-img-fun" src={img2Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Bohina Manochehrzadeh</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href=""  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img3Logistic} alt="test" />
-                  <img class="team-img-fun" src={img3Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Faiza Sidin</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/huiling-tang/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img4Logistic} alt="test" />
-                  <img class="team-img-fun" src={img4Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Huiling Tang</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/ilwad-abdulle-1a0920223/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img5Logistic} alt="test" />
-                  <img class="team-img-fun" src={img5Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Ilwad Abdulle</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/lavanaya-bajaj111/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img6Logistic} alt="test" />
-                  <img class="team-img-fun" src={img6Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Lavanaya Bajaj</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/najwa-waqar-b17010284"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img7Logistic} alt="test" />
-                  <img class="team-img-fun" src={img7Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Najwa Waqar</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/rodiat-adeoye-0a7b31257/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img8Logistic} alt="test" />
-                  <img class="team-img-fun" src={img8Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Rodiat Adeoye</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/sabriha-amin-b695b8216"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img9Logistic} alt="test" />
-                  <img class="team-img-fun" src={img9Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Sabriha Amin</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/sidney-liu-8b41a9265"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img10Logistic} alt="test" />
-                  <img class="team-img-fun" src={img10Logistic} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Sidney Liu</h4>
-              <p class="team-title">Logistics Executive</p>
-            </div>
-          </div>
-
-          <div class="executives">
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/luanamadeira/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={test} alt="test" />
-                  <img class="team-img-fun" src={test} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Luana Madeira</h4>
-              <p class="team-title">IT Director</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/dimitra-balasingam-116684239"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img1IT} alt="test" />
-                  <img class="team-img-fun" src={img1IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Dimitra Balasingam</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/hejithaw/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img2IT} alt="test" />
-                  <img class="team-img-fun" src={img2IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Thanuj Hejitha Karunadhipathi Weera</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/hulyayasar/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img3IT} alt="test" />
-                  <img class="team-img-fun" src={img3IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Hulya Yasar</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/julia-da-silva-9a2b25242/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img4IT} alt="test" />
-                  <img class="team-img-fun" src={img4IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Julia Da Silva</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/maher-kazi/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img5IT} alt="test" />
-                  <img class="team-img-fun" src={img5IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Maher Kazi</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/johanotoka/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img6IT} alt="test" />
-                  <img class="team-img-fun" src={img6IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Steeve-Johan Otoka-Eyota</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/zaina-awad/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img7IT} alt="test" />
-                  <img class="team-img-fun" src={img7IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Zaina Awad</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                <a href="https://www.linkedin.com/in/zijing-wang-78812a253/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img8IT} alt="test" />
-                  <img class="team-img-fun" src={img8IT} alt="test"/>
-                </a></div>
-              <h4 class="team-name">Zijing Wang</h4>
-              <p class="team-title">IT Executive</p>
-            </div>
-          </div>
-          <div class="executives">
-            <div class="team-member">
-              <div class="image">
-              <a href="https://www.linkedin.com/in/batul-ismail-24b4a6226"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img1Sponsorship} alt="test" />
-                  <img class="team-img-fun" src={img1Sponsorship} alt="test"/>
-              </a></div>
-              <h4 class="team-name">Batul Ismail</h4>
-              <p class="team-title">Sponsorship Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-              <a href="https://www.linkedin.com/in/sayed-mohammed/"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img2Sponsorship} alt="test" />
-                  <img class="team-img-fun" src={img2Sponsorship} alt="test"/>
-              </a></div>
-              <h4 class="team-name">Sayed Mohammed</h4>
-              <p class="team-title">Sponsorship Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-              <a href="https://www.linkedin.com/in/wnmwnm"  target="_blank" rel="noreferrer">
-                  <img class="team-img" src={img3Sponsorship} alt="test" />
-                  <img class="team-img-fun" src={img3Sponsorship} alt="test"/>
-              </a></div>
-              <h4 class="team-name">Wan Ning Ma</h4>
-              <p class="team-title">Sponsorship Executive</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                  <img class="team-img" src={test} alt="test" />
-                  <img class="team-img-fun" src={test} alt="test"/>
-              </div>
-              <h4 class="team-name">ELLE '23</h4>
-              <p class="team-title">Hacker #1</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                  <img class="team-img" src={test} alt="test" />
-                  <img class="team-img-fun" src={test} alt="test"/>
-              </div>
-              <h4 class="team-name">ELLE '23</h4>
-              <p class="team-title">Hacker #2</p>
-            </div>
-            <div class="team-member">
-              <div class="image">
-                  <img class="team-img" src={test} alt="test" />
-                  <img class="team-img-fun" src={test} alt="test"/>
-              </div>
-              <h4 class="team-name">ELLE '23</h4>
-              <p class="team-title">Hacker #3</p>
-            </div>            
+        <div class=" flex items-center justify-center">
+          <div class="flex grid-cols-12 gap-2 place-items-center place-content-center justify-center">
+            <Member name="Visali Thirukeswaran" role="ElleHacks Co-Chair" img={img1Chair} link="https://www.linkedin.com/in/visalithiru" />
+            <Member name="Danielle Grajnar" role="ElleHacks Co-Chair" img={img2Chair} link="https://www.linkedin.com/in/danielle-grajnar/" />
           </div>
         </div>
+
+        <div class=" flex items-center justify-center">
+          <div class="flex grid-cols-12 gap-2 place-items-center place-content-center justify-center">
+              <Member name="Triya Augustine" role="Logistics Director" img={img11Logistic} link="https://www.linkedin.com/in/triya-augustine/" />
+              <Member name="Aditi Patel" role="Logistics Executive" img={img1Logistic} link="https://www.linkedin.com/in/aditi-patel-43452927a" />
+              <Member name="Bohina Manochehrzadeh" role="Logistics Executive" img={img2Logistic} link="https://www.linkedin.com/in/bohina-m/" />
+              <Member name="Faiza Sidin" role="Logistics Executive" img={img3Logistic} link="" />
+              <Member name="Huiling Tang" role="Logistics Executive" img={img4Logistic} link="https://www.linkedin.com/in/huiling-tang/" /> 
+              <Member name="Ilwad Abdulle" role="Logistics Executive" img={img5Logistic} link="https://www.linkedin.com/in/ilwad-abdulle-1a0920223/" /> 
+              <Member name="Lavanaya Bajaj" role="Logistics Executive" img={img6Logistic} link="https://www.linkedin.com/in/lavanaya-bajaj111/" /> 
+              <Member name="Najwa Waqar" role="Logistics Executive" img={img7Logistic} link="https://www.linkedin.com/in/najwa-waqar-b17010284" />
+              <Member name="Rodiat Adeoye" role="Logistics Executive" img={img8Logistic} link="https://www.linkedin.com/in/rodiat-adeoye-0a7b31257/" />
+              <Member name="Sabriha Amin" role="Logistics Executive" img={img9Logistic} link="https://www.linkedin.com/in/sabriha-amin-b695b8216" />
+              <Member name="Sidney Liu" role="Logistics Executive" img={img10Logistic} link="https://www.linkedin.com/in/sidney-liu-8b41a9265" />
+            </div>
+          </div>
+
+          <div class=" flex items-center justify-center">
+            <div class="flex grid-cols-12 gap-2 place-items-center place-content-center justify-center">
+              <Member name="Luana Madeira" role="IT Director" img={test} link="https://www.linkedin.com/in/luanamadeira/" />
+              <Member name="Dimitra Balasingam" role="IT Executive" img={img1IT} link="https://www.linkedin.com/in/dimitra-balasingam-116684239" />
+              <Member name="Thanuj Hejitha Karunadhipathi Weera" role="IT Executive" img={img2IT} link="https://www.linkedin.com/in/hejithaw/" />
+              <Member name="Hulya Yasar" role="IT Executive" img={img3IT} link="https://www.linkedin.com/in/hulyayasar/" />
+              <Member name="Julia Da Silva" role="IT Executive" img={img4IT} link="https://www.linkedin.com/in/julia-da-silva-9a2b25242/" />
+              <Member name="Maher Kazi" role="IT Executive" img={img5IT} link="https://www.linkedin.com/in/maher-kazi/" />
+              <Member name="Steeve-Johan Otoka-Eyota" role="IT Executive" img={img6IT} link="https://www.linkedin.com/in/johanotoka/" />
+              <Member name="Zaina Awad" role="IT Executive" img={img7IT} link="https://www.linkedin.com/in/zaina-awad/" />
+              <Member name="Zijing Wang" role="IT Executive" img={img8IT} link="https://www.linkedin.com/in/zijing-wang-78812a253/" />
+            </div>
+          </div>
+
+          <div class=" flex items-center justify-center">
+            <div class="flex grid-cols-12 gap-2 place-items-center place-content-center justify-center pb-8">
+              <Member name="Batul Ismail" role="Sponsorship Executive" img={img1Sponsorship} link="https://www.linkedin.com/in/batul-ismail-24b4a6226" />
+              <Member name="Sayed Mohammed" role="Sponsorship Executive" img={img2Sponsorship} link="https://www.linkedin.com/in/sayed-mohammed/" />
+              <Member name="Wan Ning Ma" role="Sponsorship Executive" img={img3Sponsorship} link="https://www.linkedin.com/in/wnmwnm" />
+              <Member name="ELLE '23" role="Hacker #1" img={test} link="" />
+              <Member name="ELLE '23" role="Hacker #2" img={test} link="" />
+              <Member name="ELLE '23" role="Hacker #3" img={test} link="" />
+            </div>
+          </div>
       </header>
     </div>
   );

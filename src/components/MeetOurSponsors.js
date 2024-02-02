@@ -1,89 +1,38 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from "react";
 import Red from "../assets/Red.png";
-import Card from 'react-bootstrap/Card';
-import "./MeetOurSponsors.css"
-
+import StickerMule from "../assets/sponsors/sticker-mule-logo-light.png";
+import Card from "react-bootstrap/Card";
+import "./MeetOurSponsors.css";
 
 function MeetTheTeam() {
-
   return (
     <div className="App" id="meet-our-sponsors-section">
       <div class="container-fluid-xl"></div>
-        <h2 class="sponsor-heading">
-          Meet Our Sponsors
-        </h2>
+      <h2 class="text-white text-center text-8xl pt-6">Meet Our Sponsors</h2>
 
-        <div  id="sponsors">
-            <div class="sponsors-container">
-                <div class="gold-sponsors">
-                    <h3>Gold Sponsors</h3>
-                    <Container className="d-flex justify-content-center">
-                      <Row>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                        <Col sm={6} md={4} lg={3} xl={2}>
-                          <Card className="custom-card">
-                            <Card.Img variant="top" src={Red} />
-                          </Card>
-                        </Col>
-                      </Row>
-                    </Container>
+      <div id="sponsors">
+        <div class="sponsors-container">
+          <div class="community-sponsors">
+            <h3 class="text-white text-center text-6xl p-4">Community Sponsors</h3>
+            <div>
+              <div class=" flex items-center justify-center">
+                <div class="flex grid-cols-4 gap-5 place-items-center place-content-center justify-center">
+                  <a href="https://mule.to/p5it" target="_blank" rel="noreferrer">
+                  <Card className="custom-card justify-center">
+                    <Card.Img variant="top" src={StickerMule} />
+                  </Card>
+                  </a>
                 </div>
-                <div class="silver-sponsors">
-                    <h3>Silver Sponsors</h3>
-                    
-                </div>
-                <div class="bronze-sponsors">
-                    <h3>Bronze Sponsors</h3>
-                    
-                </div>
-                <div class="community-sponsors">
-                    <h3>Community Sponsors</h3>
-                </div>
+              </div>
+              <p class="text-white text-center p-3 text-2xl">
+                Community Sponsors are the backbone of our organization. They
+                are the ones who keep our organization running and we are so
+                grateful for their support. We couldn't do it without them!
+              </p>
             </div>
           </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -23,6 +23,7 @@ function App() {
         <AboutUs id="aboutus" />
         <MeetTheTeam id="meettheteam" />
         <JoinUS id="joinus" />
+        <MeetOurSponsors id="joinus" />
         <FAQ id="faq" />
         <Footer />
       </div>

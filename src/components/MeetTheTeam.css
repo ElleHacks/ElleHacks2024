@@ -1,66 +1,3 @@
-/* @Hasti 'Meet The Team' section start */
-
-a {
-  text-decoration: none;
-}
-
-.team-heading {
-  display:inline;
-  position:relative;
-  left: 600px;
-  bottom: 20px;
-  font-size: 85px;
-  margin: 5px;
-  text-align: left;
-  word-spacing: -0.1em;
-  letter-spacing: -0.03em;
-  color: white;
-}
-
-/*flex properties*/
-
-.grid {
-  display: flex;
-  margin: 0 auto;
-}
-
-.co-chairs {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 600px;
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
-.executives {
-  display: flex;
-  margin: 0 auto;
-}
-
-.lms-exe {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 570px;
-  margin-left: 0px;
-}
-
-.IT-exe {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 570px;
-  margin-right: 0px;
-}
-
-.sponsor-exe {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
 .team-member {
   margin: 8px;
@@ -98,27 +35,6 @@ a {
   border-bottom: solid 5px #A45555; 
 }
 
-.team-img-fun {
-  display: none;
-  margin: 0 auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  /* border: solid #8872AB; */
-  border-bottom: solid 5px  #A45555;
-}
-
-.image:hover .team-img-fun {
-  display: inline;
-  margin: 1px;
-}
-
-.image:hover .team-img {
-  display: none;
-  margin: 1px;
-}
-
-
 /* Name and title */
 
 .team-name {
@@ -126,6 +42,7 @@ a {
   font-style: normal;
   text-align: center;
   margin-bottom: 0;
+  max-width: 150px;
 }
 
 .team-title {
