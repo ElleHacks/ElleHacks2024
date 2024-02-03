@@ -25,9 +25,7 @@ function MeetTheTeam() {
                 </div>
               </div>
               <p class="text-white text-center p-3 text-2xl">
-                Community Sponsors are the backbone of our organization. They
-                are the ones who keep our organization running and we are so
-                grateful for their support. We couldn't do it without them!
+                Thank you to our sponsor Sticker Mule!
               </p>
             </div>
           </div>
