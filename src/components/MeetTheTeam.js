@@ -62,38 +62,43 @@ function MeetTheTeam() {
         <div class="container-fluid-xl" id="about-us-section">
         </div><div class="team" />
 
-        <h2 class="text-white text-center text-8xl p-4">
-          Meet Our Team 
-        </h2>
+          <h2 class="text-white text-center text-8xl p-4">
+            Meet Our Team 
+          </h2>
 
-        <div class=" flex items-center justify-center">
-          <div class="flex grid-cols-12 gap-2 place-items-center place-content-center justify-center">
-            <Member name="Visali Thirukeswaran" role="ElleHacks Co-Chair" img={img1Chair} link="https://www.linkedin.com/in/visalithiru" />
-            <Member name="Danielle Grajnar" role="ElleHacks Co-Chair" img={img2Chair} link="https://www.linkedin.com/in/danielle-grajnar/" />
-            <Member name="Erika Grandy" role="ElleHacks Co-Chair" img={img3Chair} link="https://www.linkedin.com/in/erikagrandy/" />
-            <Member name="Mariam Javeed" role="ElleHacks Co-Chair" img={img4Chair} link="https://www.linkedin.com/in/mariamjaveed/" />
-          </div>
-        </div>
-
-        <div class=" flex items-center justify-center">
-          <div class="flex grid-cols-14 gap-2 place-items-center place-content-center justify-center">
-              <Member name="Triya Augustine" role="Logistics Director" img={img11Logistic} link="https://www.linkedin.com/in/triya-augustine/" />
-              <Member name="Aditi Patel" role="Logistics Executive" img={img1Logistic} link="https://www.linkedin.com/in/aditi-patel-43452927a" />
-              <Member name="Bohina Manochehrzadeh" role="Logistics Executive" img={img2Logistic} link="https://www.linkedin.com/in/bohina-m/" />
-              <Member name="Faiza Sidin" role="Logistics Executive" img={img3Logistic} link="" />
-              <Member name="Huiling Tang" role="Logistics Executive" img={img4Logistic} link="https://www.linkedin.com/in/huiling-tang/" /> 
-              <Member name="Ilwad Abdulle" role="Logistics Executive" img={img5Logistic} link="https://www.linkedin.com/in/ilwad-abdulle-1a0920223/" /> 
-              <Member name="Lavanaya Bajaj" role="Logistics Executive" img={img6Logistic} link="https://www.linkedin.com/in/lavanaya-bajaj111/" /> 
-              <Member name="Najwa Waqar" role="Logistics Executive" img={img7Logistic} link="https://www.linkedin.com/in/najwa-waqar-b17010284" />
-              <Member name="Rodiat Adeoye" role="Logistics Executive" img={img8Logistic} link="https://www.linkedin.com/in/rodiat-adeoye-0a7b31257/" />
-              <Member name="Sabriha Amin" role="Logistics Executive" img={img9Logistic} link="https://www.linkedin.com/in/sabriha-amin-b695b8216" />
-              <Member name="Sidney Liu" role="Logistics Executive" img={img10Logistic} link="https://www.linkedin.com/in/sidney-liu-8b41a9265" />
-              <Member name="Ellia Godbout" role="Logistics Executive" img={img12Logistic} link="https://www.linkedin.com/in/ellia-godbout/" />
-              <Member name="Shalomi Herman" role="Logistics Executive" img={img13Logistic} link="https://www.linkedin.com/in/shalomi-herman" />
-              <Member name="Katsa Bejemil" role="Logistics Executive" img={test} link="https://www.linkedin.com/in/shalomi-herman" />
-              <Member name="Asma Hashar" role="Logistics Executive" img={test} link="https://www.linkedin.com/in/shalomi-herman" />
+          <div class=" flex items-center justify-center">
+            <div class="flex grid-cols-12 gap-2 place-items-center place-content-center justify-center">
+              <Member name="Visali Thirukeswaran" role="ElleHacks Co-Chair" img={img1Chair} link="https://www.linkedin.com/in/visalithiru" />
+              <Member name="Danielle Grajnar" role="ElleHacks Co-Chair" img={img2Chair} link="https://www.linkedin.com/in/danielle-grajnar/" />
+              <Member name="Erika Grandy" role="ElleHacks Co-Chair" img={img3Chair} link="https://www.linkedin.com/in/erikagrandy/" />
+              <Member name="Mariam Javeed" role="ElleHacks Co-Chair" img={img4Chair} link="https://www.linkedin.com/in/mariamjaveed/" />
             </div>
           </div>
+
+          <div class=" flex items-center justify-center">
+            <div class="flex grid-cols-14 gap-2 place-items-center place-content-center justify-center">
+                <Member name="Triya Augustine" role="Logistics Director" img={img11Logistic} link="https://www.linkedin.com/in/triya-augustine/" />
+                <Member name="Aditi Patel" role="Logistics Executive" img={img1Logistic} link="https://www.linkedin.com/in/aditi-patel-43452927a" />
+                <Member name="Bohina Manochehrzadeh" role="Logistics Executive" img={img2Logistic} link="https://www.linkedin.com/in/bohina-m/" />
+                <Member name="Faiza Sidin" role="Logistics Executive" img={img3Logistic} link="" />
+                <Member name="Huiling Tang" role="Logistics Executive" img={img4Logistic} link="https://www.linkedin.com/in/huiling-tang/" /> 
+                <Member name="Ilwad Abdulle" role="Logistics Executive" img={img5Logistic} link="https://www.linkedin.com/in/ilwad-abdulle-1a0920223/" /> 
+                <Member name="Lavanaya Bajaj" role="Logistics Executive" img={img6Logistic} link="https://www.linkedin.com/in/lavanaya-bajaj111/" /> 
+              </div>
+            </div>
+
+            <div class=" flex items-center justify-center">
+            <div class="flex grid-cols-14 gap-2 place-items-center place-content-center justify-center">
+                <Member name="Najwa Waqar" role="Logistics Executive" img={img7Logistic} link="https://www.linkedin.com/in/najwa-waqar-b17010284" />
+                <Member name="Rodiat Adeoye" role="Logistics Executive" img={img8Logistic} link="https://www.linkedin.com/in/rodiat-adeoye-0a7b31257/" />
+                <Member name="Sabriha Amin" role="Logistics Executive" img={img9Logistic} link="https://www.linkedin.com/in/sabriha-amin-b695b8216" />
+                <Member name="Sidney Liu" role="Logistics Executive" img={img10Logistic} link="https://www.linkedin.com/in/sidney-liu-8b41a9265" />
+                <Member name="Ellia Godbout" role="Logistics Executive" img={img12Logistic} link="https://www.linkedin.com/in/ellia-godbout/" />
+                <Member name="Shalomi Herman" role="Logistics Executive" img={img13Logistic} link="https://www.linkedin.com/in/shalomi-herman" />
+                <Member name="Katsa Bejemil" role="Logistics Executive" img={test} link="https://www.linkedin.com/in/shalomi-herman" />
+                <Member name="Asma Hashar" role="Logistics Executive" img={test} link="https://www.linkedin.com/in/shalomi-herman" />
+              </div>
+            </div>
 
           <div class=" flex items-center justify-center">
             <div class="flex grid-cols-12 gap-2 place-items-center place-content-center justify-center">
