@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.286ae8fe.css",
-    "main.js": "./static/js/main.a50beacc.js",
+    "main.css": "./static/css/main.e13e2690.css",
+    "main.js": "./static/js/main.b16cadf8.js",
     "static/js/787.cc2aee18.chunk.js": "./static/js/787.cc2aee18.chunk.js",
     "static/media/ElleHacks2024-06.jpg": "./static/media/ElleHacks2024-06.37e22afdf27a129fe56e.jpg",
     "static/media/ElleHacks2024-02.jpg": "./static/media/ElleHacks2024-02.6c16576a8a44bacf721d.jpg",
@@ -19,13 +19,14 @@
     "static/media/Yellow.png": "./static/media/Yellow.ec1efa4685389e71d1f1.png",
     "static/media/Green.png": "./static/media/Green.546cffc568cfb81a1c8c.png",
     "static/media/Simplification.png": "./static/media/Simplification.f116b67c5833bf32121b.png",
+    "static/media/sticker-mule-logo-light.png": "./static/media/sticker-mule-logo-light.d1ad4fc4d53ca6d0a495.png",
     "index.html": "./index.html",
-    "main.286ae8fe.css.map": "./static/css/main.286ae8fe.css.map",
-    "main.a50beacc.js.map": "./static/js/main.a50beacc.js.map",
+    "main.e13e2690.css.map": "./static/css/main.e13e2690.css.map",
+    "main.b16cadf8.js.map": "./static/js/main.b16cadf8.js.map",
     "787.cc2aee18.chunk.js.map": "./static/js/787.cc2aee18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.286ae8fe.css",
-    "static/js/main.a50beacc.js"
+    "static/css/main.e13e2690.css",
+    "static/js/main.b16cadf8.js"
   ]
 }
