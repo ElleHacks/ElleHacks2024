@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.5558022b.css",
-    "main.js": "./static/js/main.4a16be13.js",
+    "main.js": "./static/js/main.14a26bfe.js",
     "static/js/787.cc2aee18.chunk.js": "./static/js/787.cc2aee18.chunk.js",
     "static/media/ElleHacks2024-06.jpg": "./static/media/ElleHacks2024-06.37e22afdf27a129fe56e.jpg",
     "static/media/ElleHacks2024-02.jpg": "./static/media/ElleHacks2024-02.6c16576a8a44bacf721d.jpg",
@@ -27,6 +27,7 @@
     "static/media/Visali_Thirukeswaran.png": "./static/media/Visali_Thirukeswaran.370b50cdcd4d931860c3.png",
     "static/media/EnvironicsAnalytics.jpg": "./static/media/EnvironicsAnalytics.1d921c64b446f86c8986.jpg",
     "static/media/berg.jpg": "./static/media/berg.50fca67e2fa5a0944c4c.jpg",
+    "static/media/Lass.png": "./static/media/Lass.dad640b0242e2adc4f43.png",
     "static/media/Red.png": "./static/media/Red.9e061e9d8fe9c5a93cc3.png",
     "static/media/CGI.jpg": "./static/media/CGI.c3ba6ec841e200dfcc30.jpg",
     "static/media/Red-Bull-logo.jpg": "./static/media/Red-Bull-logo.ce7d6da273d4fed86d9f.jpg",
@@ -57,16 +58,17 @@
     "static/media/ilwad_headshot.jpg": "./static/media/ilwad_headshot.94fe1a0cd80ff0aea115.jpg",
     "static/media/CSE.jpeg": "./static/media/CSE.651001580e4dae3ff72f.jpeg",
     "static/media/sticker-mule-logo-light.png": "./static/media/sticker-mule-logo-light.d1ad4fc4d53ca6d0a495.png",
+    "static/media/YSpace_YorkU_2020_RGB.png": "./static/media/YSpace_YorkU_2020_RGB.7eae3eb45d4312220762.png",
     "static/media/maher kazi.jpg": "./static/media/maher kazi.6e4668a7b7c8b286f078.jpg",
     "static/media/Aditi_headshot.jpeg": "./static/media/Aditi_headshot.541a543494431e51bb00.jpeg",
     "static/media/Huiling_tang_headshot.jpg": "./static/media/Huiling_tang_headshot.d172d3db7331fb38d31e.jpg",
     "index.html": "./index.html",
     "main.5558022b.css.map": "./static/css/main.5558022b.css.map",
-    "main.4a16be13.js.map": "./static/js/main.4a16be13.js.map",
+    "main.14a26bfe.js.map": "./static/js/main.14a26bfe.js.map",
     "787.cc2aee18.chunk.js.map": "./static/js/787.cc2aee18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5558022b.css",
-    "static/js/main.4a16be13.js"
+    "static/js/main.14a26bfe.js"
   ]
 }
