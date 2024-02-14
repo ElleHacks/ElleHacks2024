@@ -1,31 +1,3 @@
-// import React from "react";
-// import Red from "../assets/Red.png";
-// import StickerMule from "../assets/sponsors/sticker-mule-logo-light.png";
-// import Card from "react-bootstrap/Card";
-// import "./MeetOurSponsors.css";
-
-// function MeetTheTeam() {
-
-//   const styles ={
-//     backgroundColor: "#712323",
-//     padding: "5%"
-//   }
-
-//   return (
-
-    
-//     <div className="App"  style={styles} id="meet-our-sponsors-section">
-//       <div class="container-fluid-xl"></div>
-//       <h2 className="text-white text-center text-9xl pt-6">Meet Our Sponsors</h2>
-
-      
-//     </div>
-//   );
-// }
-
-// export default MeetTheTeam;
-
-
 import React from "react";
 import Red from "../assets/Red.png";
 import StickerMule from "../assets/sponsors/sticker-mule-logo-light.png";
@@ -39,6 +11,8 @@ import Kpm from "../assets/sponsors/kpm_logo_vertical-600x428-1.jpg";
 import Pg from "../assets/sponsors/P&G.png";
 import Redbull from "../assets/sponsors/Red-Bull-logo.jpg";
 import Microsoft from "../assets/sponsors/reactor.jpg";
+import Yspace from "../assets/sponsors/YSpace_YorkU_2020_RGB.png";
+import Lassonde from "../assets/sponsors/Lass.png";
 import Card from "react-bootstrap/Card";
 import "./MeetOurSponsors.css";
 
@@ -96,6 +70,17 @@ const styles ={
                 </div>
               </div>
             </div>
+            <div>
+              <div class="flex items-center justify-center">
+                <div class="flex grid-cols-4 gap-5 place-items-center place-content-center justify-center">
+                  <Card className="custom-card mx-auto justify-center"> 
+                    <a href="https://lassonde.yorku.ca/" target="_blank" rel="noreferrer" class="centered-image">
+                      <Card.Img variant="top" src={Lassonde} className="smaller-image"style={{ width: 'auto', height: 'auto', padding:'8%' }} />
+                    </a>
+                  </Card>
+                </div>
+              </div>
+            </div>
           </div>
           </div>  
           
@@ -114,7 +99,7 @@ const styles ={
       <div class="col-lg-4 col-md-6 mb-3">
         <Card className="custom-card mx-auto justify-content-center"> 
           <a href="https://www.cse-cst.gc.ca/en" target="_blank" rel="noreferrer" class="centered-image">
-            <Card.Img variant="top" src={Cse} className="smaller-image" style={{ width: '70%', height: '150px', padding:'10px' }} />
+            <Card.Img variant="top" src={Cse} className="smaller-image" style={{ width: '60%', height: '150px', padding:'1px' }} />
           </a>
         </Card>
       </div>
@@ -150,7 +135,7 @@ const styles ={
 <div class="community-sponsors text-center">
   <h3>Community Sponsors</h3>
   <div class="d-flex justify-content-center align-items-center flex-wrap">
-    <div class="col-lg-3 col-md-6 mb-3">
+    <div class="col-lg-2 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://developer.microsoft.com/en-us/reactor/" target="_blank" rel="noreferrer" class="centered-image">
           <Card.Img variant="top" src={Microsoft} className="smaller-image" style={{ width: '100%', height: '120px' }} />
@@ -164,7 +149,7 @@ const styles ={
         </a>
       </Card>
     </div>
-    <div class="col-lg-3 col-md-6 mb-3">
+    <div class="col-lg-2 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://www.redbull.com/ca-en/" target="_blank" rel="noreferrer" class="centered-image">
           <Card.Img variant="top" src={Redbull} className="smaller-image" style={{ width: '100%', height: '120px', padding:'10px' }}/>
@@ -174,7 +159,14 @@ const styles ={
     <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://mule.to/p5it" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={StickerMule} className="smaller-image" style={{ width: 'auto', height: '110px'}}/>
+          <Card.Img variant="top" src={StickerMule} className="smaller-image" style={{ width: 'auto', height: '110px',padding:'10px 1px'}}/>
+        </a>
+      </Card>
+    </div>
+    <div class="col-lg-2 col-md-6 mb-3">
+      <Card className="custom-card mx-auto justify-content-center"> 
+        <a href="https://www.yorku.ca/yspace/" target="_blank" rel="noreferrer" class="centered-image">
+          <Card.Img variant="top" src={Yspace} className="smaller-image" style={{ width: 'auto', height: '110px', padding:'10%'}}/>
         </a>
       </Card>
     </div>
