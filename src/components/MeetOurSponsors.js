@@ -142,7 +142,7 @@ const styles ={
         </a>
       </Card>
     </div>
-    <div class="col-lg-3 col-md-6 mb-3">
+    <div class="col-lg-2 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://investbrampton.ca/locate-here/innovation-district/" target="_blank" rel="noreferrer" class="centered-image">
           <Card.Img variant="top" src={Brampton} className="smaller-image" style={{ width: '100%', height: '120px', padding:'20px' }}/>
@@ -150,13 +150,6 @@ const styles ={
       </Card>
     </div>
     <div class="col-lg-2 col-md-6 mb-3">
-      <Card className="custom-card mx-auto justify-content-center"> 
-        <a href="https://www.redbull.com/ca-en/" target="_blank" rel="noreferrer" class="centered-image">
-          <Card.Img variant="top" src={Redbull} className="smaller-image" style={{ width: '100%', height: '120px', padding:'10px' }}/>
-        </a>
-      </Card>
-    </div>
-    <div class="col-lg-3 col-md-6 mb-3">
       <Card className="custom-card mx-auto justify-content-center"> 
         <a href="https://mule.to/p5it" target="_blank" rel="noreferrer" class="centered-image">
           <Card.Img variant="top" src={StickerMule} className="smaller-image" style={{ width: 'auto', height: '110px',padding:'10px 1px'}}/>
